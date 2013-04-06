@@ -3,6 +3,8 @@ Sickbeard-Alfred
 
 Control [Sickbeard](http://sickbeard.com/) from [Alfred 2](http://www.alfredapp.com/)
 
+------
+
 ![Sickbeard Alfred](http://cl.ly/O74l/Screen%20Shot%202013-04-06%20at%2020.52.24.png "Add new tv show to Sickbeard")
 
 ## Download
