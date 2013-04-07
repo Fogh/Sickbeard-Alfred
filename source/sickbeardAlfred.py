@@ -46,6 +46,10 @@ def open_browser():
     webbrowser.open(get_host())
 
 
+def open_showpage(identifier):
+    webbrowser.open(get_host() + "/home/displayShow?show=" + identifier)
+
+
 def isAvailable():
     data = get_data("sb.ping")
     success = data['result']
@@ -73,7 +77,7 @@ def get_shows():
             subtitle_text = "Next episode: " + show['next_ep_airdate']
             if show['status'] == "Ended":
                 subtitle_text = "Ended"
-            fb.add_item(show['show_name'], subtitle_text)
+            fb.add_item(show['show_name'], subtitle_text, key)
         print fb
 
 

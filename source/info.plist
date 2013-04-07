@@ -28,6 +28,17 @@
 				<string></string>
 			</dict>
 		</array>
+		<key>4571A665-A0EB-4CCC-8982-41F6A27E6B55</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>F69B7FD6-4076-478B-86FB-6A07DC50B0A9</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
 		<key>4F4D7DD5-FF70-4CB1-A724-218C58959251</key>
 		<array>
 			<dict>
@@ -235,6 +246,22 @@ forced_search()</string>
 			<key>config</key>
 			<dict>
 				<key>escaping</key>
+				<integer>4</integer>
+				<key>script</key>
+				<string>from sickbeardAlfred import open_showpage
+open_showpage("{query}")</string>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>F69B7FD6-4076-478B-86FB-6A07DC50B0A9</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>escaping</key>
 				<integer>0</integer>
 				<key>script</key>
 				<string>from sickbeardAlfred import open_browser
@@ -300,6 +327,39 @@ set_APIKey("{query}")</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>sick version</string>
+				<key>text</key>
+				<string>Get the version of Sickbeard</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>FE4AFD7B-CFC1-418F-80C0-0DEA7F909473</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string>from sickbeardAlfred import shutdown
+shutdown()</string>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>71B557EE-9202-4AE8-8ED8-A9B3E75E79C6</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>lastpathcomponent</key>
 				<false/>
 				<key>onlyshowifquerypopulated</key>
@@ -326,36 +386,6 @@ set_APIKey("{query}")</string>
 				<key>argumenttype</key>
 				<integer>2</integer>
 				<key>keyword</key>
-				<string>sick version</string>
-				<key>text</key>
-				<string>Get the version of Sickbeard</string>
-				<key>withspace</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>FE4AFD7B-CFC1-418F-80C0-0DEA7F909473</string>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>autopaste</key>
-				<false/>
-				<key>clipboardtext</key>
-				<string>{query}</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.clipboard</string>
-			<key>uid</key>
-			<string>FEC39194-E6C2-4850-92BB-A820624215F3</string>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>2</integer>
-				<key>keyword</key>
 				<string>sick shutdown</string>
 				<key>text</key>
 				<string>Shutdown Sickbeard</string>
@@ -366,6 +396,22 @@ set_APIKey("{query}")</string>
 			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
 			<string>9EF7EA88-37B8-4F99-AC58-625F15626B12</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>escaping</key>
+				<integer>4</integer>
+				<key>script</key>
+				<string>from sickbeardAlfred import add_show
+add_show("{query}")</string>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>0F129F78-B100-45A4-8A64-3AEC5B95CD71</string>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -387,34 +433,15 @@ set_APIKey("{query}")</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>escaping</key>
-				<integer>0</integer>
-				<key>script</key>
-				<string>from sickbeardAlfred import shutdown
-shutdown()</string>
-				<key>type</key>
-				<integer>3</integer>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.action.script</string>
+			<string>alfred.workflow.output.clipboard</string>
 			<key>uid</key>
-			<string>71B557EE-9202-4AE8-8ED8-A9B3E75E79C6</string>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>escaping</key>
-				<integer>4</integer>
-				<key>script</key>
-				<string>from sickbeardAlfred import add_show
-add_show("{query}")</string>
-				<key>type</key>
-				<integer>3</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>0F129F78-B100-45A4-8A64-3AEC5B95CD71</string>
+			<string>FEC39194-E6C2-4850-92BB-A820624215F3</string>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -804,6 +831,11 @@ ping()</string>
 		<dict>
 			<key>ypos</key>
 			<real>390</real>
+		</dict>
+		<key>F69B7FD6-4076-478B-86FB-6A07DC50B0A9</key>
+		<dict>
+			<key>ypos</key>
+			<real>790</real>
 		</dict>
 		<key>F7ED2457-CF02-41A2-9951-275DA730CD43</key>
 		<dict>
