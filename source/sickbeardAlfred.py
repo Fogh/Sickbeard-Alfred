@@ -83,9 +83,10 @@ def get_shows():
 
 def get_soon_episodes():
     if isAvailable():
-        data = get_data("future&type=soon")['data']['soon']
+        data = get_data("future&type=today|soon")
+        episodes = data['data']['today'] + data['data']['soon']
         fb = Feedback()
-        for episode in data:
+        for episode in episodes:
             episode_name = episode['ep_name']
             show_name = episode['show_name']
             airs = episode['airs']
