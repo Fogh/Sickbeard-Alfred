@@ -28,3 +28,6 @@ Control [Sickbeard](http://sickbeard.com/) from [Alfred 2](http://www.alfredapp.
 * Use the keyword `sick api` to set your API key.
 * If you host Sickbeard elsewhere than localhost use the keyword `sick host` to set your host URL.
 
+## Contribute
+
+If you find any bugs or if you think the workflow is missing a feature, don't hesitate to submit a pull request or create an issue.
