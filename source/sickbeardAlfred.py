@@ -1,6 +1,7 @@
 import json
 import urllib2
 import webbrowser
+import urllib
 from alp.settings import Settings
 from feedback import Feedback
 
@@ -62,6 +63,7 @@ def get_version():
     if isAvailable():
         data = get_data("sb")['data']
         print "Version: " + data['sb_version']
+
 
 def ping():
     if isAvailable():
@@ -126,7 +128,7 @@ def add_show(identifer):
 
 def search_shows(query):
     if isAvailable():
-        results = get_data("sb.searchtvdb&name=" + query)['data']['results']
+        results = get_data("sb.searchtvdb&name=" + urllib.quote(query))['data']['results']
         fb = Feedback()
         for result in results:
             show_name = result['name']
