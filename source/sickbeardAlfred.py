@@ -37,7 +37,7 @@ def get_data(method_name):
     try:
         res = urllib2.urlopen(req)
     except urllib2.URLError:
-        print "Can't connect to Sickbeard"
+        print "Can't connect to Sick Beard"
         raise SystemExit()
 
     return json.loads(res.read())
@@ -55,7 +55,7 @@ def isAvailable():
     data = get_data("sb.ping")
     success = data['result']
     if not success == "success":
-        print "Sickbeard is not available"
+        print "Sick Beard is not available"
     return success
 
 
