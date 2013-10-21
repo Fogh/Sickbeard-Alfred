@@ -9,7 +9,7 @@ Control [Sick Beard](http://sickbeard.com/) from [Alfred 2](http://www.alfredapp
 
 ## Download
 
-[Download workflow](https://github.com/Fogh/Sickbeard-Alfred/blob/master/Sick%20Beard.alfredworkflow)
+[Download workflow](https://github.com/Fogh/Sickbeard-Alfred/raw/master/Sick%20Beard.alfredworkflow)
 
 ## Features: 
 
