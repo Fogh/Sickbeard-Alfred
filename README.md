@@ -1,15 +1,15 @@
 Sickbeard-Alfred
 ================
 
-Control [Sickbeard](http://sickbeard.com/) from [Alfred 2](http://www.alfredapp.com/)
+Control [Sick Beard](http://sickbeard.com/) from [Alfred 2](http://www.alfredapp.com/)
 
 ------
 
-![Sickbeard Alfred](http://cl.ly/O74l/Screen%20Shot%202013-04-06%20at%2020.52.24.png "Add new tv show to Sickbeard")
+![Sick Beard Alfred](http://cl.ly/O74l/Screen%20Shot%202013-04-06%20at%2020.52.24.png "Add new tv show to Sick Beard")
 
 ## Download
 
-[Download workflow](https://github.com/Fogh/Sickbeard-Alfred/raw/master/Sickbeard.alfredworkflow)
+[Download workflow](https://github.com/Fogh/Sickbeard-Alfred/blob/master/Sick%20Beard.alfredworkflow)
 
 ## Features: 
 
@@ -17,16 +17,16 @@ Control [Sickbeard](http://sickbeard.com/) from [Alfred 2](http://www.alfredapp.
 * Do a forced search for episodes
 * Show upcoming episodes
 * Show downloaded history
-* Open Sickbeard webinterface
-* Get the version of Sickbeard
-* Ping Sickbeard
-* Restart Sickbeard
-* Shutdown Sickbeard
+* Open Sick Beard webinterface
+* Get the version of Sick Beard
+* Ping Sick Beard
+* Restart Sick Beard
+* Shutdown Sick Beard
 
 ## Setup
 
 * Use the keyword `sick api <API key>` to set your API key.
-* If you host Sickbeard elsewhere than localhost use the keyword `sick host <host url>` to set your host URL.
+* If you host Sickbeard elsewhere than localhost use the keyword `sick host <host URL>` to set your host URL.
 
 ## Contribute
 
