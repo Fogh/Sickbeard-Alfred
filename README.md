@@ -1,6 +1,8 @@
 Sickbeard-Alfred
 ================
 
+![](http://img.shields.io/github/tag/Fogh/Sickbeard-Alfred.svg)
+
 Control [Sick Beard](http://sickbeard.com/) from [Alfred 2](http://www.alfredapp.com/)
 
 ------
