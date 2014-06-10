@@ -19,7 +19,7 @@ Control [Sick Beard](http://sickbeard.com/) from [Alfred 2](http://www.alfredapp
 * Do a forced search for episodes
 * Show upcoming episodes
 * Show downloaded history
-* Open Sick Beard webinterface
+* Open Sick Beard web interface
 * Get the version of Sick Beard
 * Ping Sick Beard
 * Restart Sick Beard
@@ -28,7 +28,7 @@ Control [Sick Beard](http://sickbeard.com/) from [Alfred 2](http://www.alfredapp
 ## Setup
 
 * Use the keyword `sick api <API key>` to set your API key.
-* If you host Sickbeard elsewhere than localhost use the keyword `sick host <host URL>` to set your host URL.
+* If you host Sickbeard elsewhere than localhost, use the keyword `sick host <host URL>` to set your host URL.
 
 ## Contribute
 
