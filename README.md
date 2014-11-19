@@ -33,3 +33,10 @@ Control [Sick Beard](http://sickbeard.com/) from [Alfred 2](http://www.alfredapp
 ## Contribute
 
 If you find any bugs or if you think the workflow is missing a feature, don't hesitate to submit a pull request or create an issue.
+
+---
+<a href="http://Fogh.tip.me">
+  <img
+    alt="Tip Me With ChangeTip"
+    src="https://cdn.changetip.com/img/logos/tipme_square.png?1"/>
+</a>
