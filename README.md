@@ -1,3 +1,11 @@
+<p align="center">
+<a href="https://github.com/Fogh/SABnzbd-Alfred">SABnzdb-Alfred</a> &bull; 
+<a href="https://github.com/Fogh/CouchPotato-Alfred">CouchPotato-Alfred</a> &bull; 
+<b>SickBeard-Alfred</b>
+</p>
+
+-------
+
 Sickbeard-Alfred
 ================
 
